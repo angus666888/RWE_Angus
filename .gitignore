@@ -1,0 +1,25 @@
+# Xcode
+#
+# gitignore contributors: code-review-one-byte-at-a-time
+
+## Build results
+build/
+DerivedData/
+*.moved-aside
+*.app
+*.bundle
+*.pkg
+*.dmg
+
+## User-specific
+*.xcuserdatad
+*.xcuserstate
+
+## Swift Package Manager
+.build/
+.swiftpm/
+
+## Misc
+.DS_Store
+*.pyc
+*.swp

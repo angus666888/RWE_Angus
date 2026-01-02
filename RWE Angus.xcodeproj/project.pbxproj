@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		920610CE2F07FAD2000E9117 /* RWE_AngusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920610CD2F07FAD2000E9117 /* RWE_AngusApp.swift */; };
+		920610D02F07FAD2000E9117 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920610CF2F07FAD2000E9117 /* ContentView.swift */; };
+		920610D22F07FAD4000E9117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920610D12F07FAD4000E9117 /* Assets.xcassets */; };
+		920610D52F07FAD4000E9117 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920610D42F07FAD4000E9117 /* Preview Assets.xcassets */; };
+		920610E02F07FAD4000E9117 /* RWE_AngusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920610DF2F07FAD4000E9117 /* RWE_AngusTests.swift */; };
+		920610EA2F07FAD5000E9117 /* RWE_AngusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920610E92F07FAD5000E9117 /* RWE_AngusUITests.swift */; };
+		920610EC2F07FAD5000E9117 /* RWE_AngusUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920610EB2F07FAD5000E9117 /* RWE_AngusUITestsLaunchTests.swift */; };
+		920611072F07FCAD000E9117 /* DriverEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 920611052F07FCAD000E9117 /* DriverEngine.cpp */; };
+		9206110D2F07FDD1000E9117 /* PhysMemBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9206110C2F07FDD1000E9117 /* PhysMemBridge.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		920610DC2F07FAD4000E9117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 920610C22F07FAD2000E9117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 920610C92F07FAD2000E9117;
+			remoteInfo = "RWE Angus";
+		};
+		920610E62F07FAD4000E9117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 920610C22F07FAD2000E9117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 920610C92F07FAD2000E9117;
+			remoteInfo = "RWE Angus";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		920610CA2F07FAD2000E9117 /* RWE Angus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RWE Angus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		920610CD2F07FAD2000E9117 /* RWE_AngusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWE_AngusApp.swift; sourceTree = "<group>"; };
+		920610CF2F07FAD2000E9117 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		920610D12F07FAD4000E9117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		920610D42F07FAD4000E9117 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		920610D62F07FAD4000E9117 /* RWE_Angus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RWE_Angus.entitlements; sourceTree = "<group>"; };
+		920610DB2F07FAD4000E9117 /* RWE AngusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RWE AngusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		920610DF2F07FAD4000E9117 /* RWE_AngusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWE_AngusTests.swift; sourceTree = "<group>"; };
+		920610E52F07FAD4000E9117 /* RWE AngusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RWE AngusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		920610E92F07FAD5000E9117 /* RWE_AngusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWE_AngusUITests.swift; sourceTree = "<group>"; };
+		920610EB2F07FAD5000E9117 /* RWE_AngusUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWE_AngusUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		920611042F07FC6B000E9117 /* shared_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shared_types.h; sourceTree = "<group>"; };
+		920611052F07FCAD000E9117 /* DriverEngine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DriverEngine.cpp; sourceTree = "<group>"; };
+		920611062F07FCAD000E9117 /* DriverEngine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DriverEngine.hpp; sourceTree = "<group>"; };
+		920611092F07FD38000E9117 /* PhysMemBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhysMemBridge.h; sourceTree = "<group>"; };
+		9206110C2F07FDD1000E9117 /* PhysMemBridge.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PhysMemBridge.mm; sourceTree = "<group>"; };
+		9206110F2F07FEE9000E9117 /* RWE Angus-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RWE Angus-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		920610C72F07FAD2000E9117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920610D82F07FAD4000E9117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920610E22F07FAD4000E9117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		920610C12F07FAD2000E9117 = {
+			isa = PBXGroup;
+			children = (
+				920610CC2F07FAD2000E9117 /* RWE Angus */,
+				920610DE2F07FAD4000E9117 /* RWE AngusTests */,
+				920610E82F07FAD4000E9117 /* RWE AngusUITests */,
+				920610CB2F07FAD2000E9117 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		920610CB2F07FAD2000E9117 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				920610CA2F07FAD2000E9117 /* RWE Angus.app */,
+				920610DB2F07FAD4000E9117 /* RWE AngusTests.xctest */,
+				920610E52F07FAD4000E9117 /* RWE AngusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		920610CC2F07FAD2000E9117 /* RWE Angus */ = {
+			isa = PBXGroup;
+			children = (
+				9206110C2F07FDD1000E9117 /* PhysMemBridge.mm */,
+				920611042F07FC6B000E9117 /* shared_types.h */,
+				920610CD2F07FAD2000E9117 /* RWE_AngusApp.swift */,
+				920610CF2F07FAD2000E9117 /* ContentView.swift */,
+				920610D12F07FAD4000E9117 /* Assets.xcassets */,
+				920610D62F07FAD4000E9117 /* RWE_Angus.entitlements */,
+				920610D32F07FAD4000E9117 /* Preview Content */,
+				920611052F07FCAD000E9117 /* DriverEngine.cpp */,
+				9206110F2F07FEE9000E9117 /* RWE Angus-Bridging-Header.h */,
+				920611062F07FCAD000E9117 /* DriverEngine.hpp */,
+				920611092F07FD38000E9117 /* PhysMemBridge.h */,
+			);
+			path = "RWE Angus";
+			sourceTree = "<group>";
+		};
+		920610D32F07FAD4000E9117 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				920610D42F07FAD4000E9117 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		920610DE2F07FAD4000E9117 /* RWE AngusTests */ = {
+			isa = PBXGroup;
+			children = (
+				920610DF2F07FAD4000E9117 /* RWE_AngusTests.swift */,
+			);
+			path = "RWE AngusTests";
+			sourceTree = "<group>";
+		};
+		920610E82F07FAD4000E9117 /* RWE AngusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				920610E92F07FAD5000E9117 /* RWE_AngusUITests.swift */,
+				920610EB2F07FAD5000E9117 /* RWE_AngusUITestsLaunchTests.swift */,
+			);
+			path = "RWE AngusUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		920610C92F07FAD2000E9117 /* RWE Angus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 920610EF2F07FAD5000E9117 /* Build configuration list for PBXNativeTarget "RWE Angus" */;
+			buildPhases = (
+				920610C62F07FAD2000E9117 /* Sources */,
+				920610C72F07FAD2000E9117 /* Frameworks */,
+				920610C82F07FAD2000E9117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RWE Angus";
+			productName = "RWE Angus";
+			productReference = 920610CA2F07FAD2000E9117 /* RWE Angus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		920610DA2F07FAD4000E9117 /* RWE AngusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 920610F22F07FAD5000E9117 /* Build configuration list for PBXNativeTarget "RWE AngusTests" */;
+			buildPhases = (
+				920610D72F07FAD4000E9117 /* Sources */,
+				920610D82F07FAD4000E9117 /* Frameworks */,
+				920610D92F07FAD4000E9117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				920610DD2F07FAD4000E9117 /* PBXTargetDependency */,
+			);
+			name = "RWE AngusTests";
+			productName = "RWE AngusTests";
+			productReference = 920610DB2F07FAD4000E9117 /* RWE AngusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		920610E42F07FAD4000E9117 /* RWE AngusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 920610F52F07FAD5000E9117 /* Build configuration list for PBXNativeTarget "RWE AngusUITests" */;
+			buildPhases = (
+				920610E12F07FAD4000E9117 /* Sources */,
+				920610E22F07FAD4000E9117 /* Frameworks */,
+				920610E32F07FAD4000E9117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				920610E72F07FAD4000E9117 /* PBXTargetDependency */,
+			);
+			name = "RWE AngusUITests";
+			productName = "RWE AngusUITests";
+			productReference = 920610E52F07FAD4000E9117 /* RWE AngusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		920610C22F07FAD2000E9117 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					920610C92F07FAD2000E9117 = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
+					};
+					920610DA2F07FAD4000E9117 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 920610C92F07FAD2000E9117;
+					};
+					920610E42F07FAD4000E9117 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 920610C92F07FAD2000E9117;
+					};
+				};
+			};
+			buildConfigurationList = 920610C52F07FAD2000E9117 /* Build configuration list for PBXProject "RWE Angus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 920610C12F07FAD2000E9117;
+			productRefGroup = 920610CB2F07FAD2000E9117 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				920610C92F07FAD2000E9117 /* RWE Angus */,
+				920610DA2F07FAD4000E9117 /* RWE AngusTests */,
+				920610E42F07FAD4000E9117 /* RWE AngusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		920610C82F07FAD2000E9117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920610D52F07FAD4000E9117 /* Preview Assets.xcassets in Resources */,
+				920610D22F07FAD4000E9117 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920610D92F07FAD4000E9117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920610E32F07FAD4000E9117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		920610C62F07FAD2000E9117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9206110D2F07FDD1000E9117 /* PhysMemBridge.mm in Sources */,
+				920610D02F07FAD2000E9117 /* ContentView.swift in Sources */,
+				920611072F07FCAD000E9117 /* DriverEngine.cpp in Sources */,
+				920610CE2F07FAD2000E9117 /* RWE_AngusApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920610D72F07FAD4000E9117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920610E02F07FAD4000E9117 /* RWE_AngusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920610E12F07FAD4000E9117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920610EC2F07FAD5000E9117 /* RWE_AngusUITestsLaunchTests.swift in Sources */,
+				920610EA2F07FAD5000E9117 /* RWE_AngusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		920610DD2F07FAD4000E9117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 920610C92F07FAD2000E9117 /* RWE Angus */;
+			targetProxy = 920610DC2F07FAD4000E9117 /* PBXContainerItemProxy */;
+		};
+		920610E72F07FAD4000E9117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 920610C92F07FAD2000E9117 /* RWE Angus */;
+			targetProxy = 920610E62F07FAD4000E9117 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		920610ED2F07FAD5000E9117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RWE Angus/RWE_Angus-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		920610EE2F07FAD5000E9117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "RWE Angus/RWE_Angus-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		920610F02F07FAD5000E9117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "RWE Angus/RWE_Angus.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RWE Angus/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Angus.RWE-Angus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RWE Angus/RWE Angus-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		920610F12F07FAD5000E9117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "RWE Angus/RWE_Angus.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RWE Angus/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Angus.RWE-Angus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "RWE Angus/RWE Angus-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		920610F32F07FAD5000E9117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Angus.RWE-AngusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RWE Angus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RWE Angus";
+			};
+			name = Debug;
+		};
+		920610F42F07FAD5000E9117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Angus.RWE-AngusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RWE Angus.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RWE Angus";
+			};
+			name = Release;
+		};
+		920610F62F07FAD5000E9117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Angus.RWE-AngusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "RWE Angus";
+			};
+			name = Debug;
+		};
+		920610F72F07FAD5000E9117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Angus.RWE-AngusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "RWE Angus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		920610C52F07FAD2000E9117 /* Build configuration list for PBXProject "RWE Angus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920610ED2F07FAD5000E9117 /* Debug */,
+				920610EE2F07FAD5000E9117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		920610EF2F07FAD5000E9117 /* Build configuration list for PBXNativeTarget "RWE Angus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920610F02F07FAD5000E9117 /* Debug */,
+				920610F12F07FAD5000E9117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		920610F22F07FAD5000E9117 /* Build configuration list for PBXNativeTarget "RWE AngusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920610F32F07FAD5000E9117 /* Debug */,
+				920610F42F07FAD5000E9117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		920610F52F07FAD5000E9117 /* Build configuration list for PBXNativeTarget "RWE AngusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920610F62F07FAD5000E9117 /* Debug */,
+				920610F72F07FAD5000E9117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 920610C22F07FAD2000E9117 /* Project object */;
+}
